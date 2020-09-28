@@ -1,7 +1,168 @@
 <!DOCTYPE html>
 <html>
-<head>Hello World</head>
+<head><title>Hello World</title>
+<style type="text/css">
+
+	*{
+		box-sizing: border-box;
+	}
+
+	#mainDiv{
+		background-color: gray;
+		margin: 30px;
+		position: relative;
+		border: 2px solid black;
+
+
+	}
+	#mainDiv div{
+		width: 100px;
+		height: 50px;
+		transition-property: width;
+		transition-duration: 1s;
+		transition-delay: 0s;
+		margin-left: 10px;
+
+
+	}
+
+
+   #mainDiv div:hover{
+	width: 300px 
+   }
+
+   
+
+   #div1{
+   	background-color: #db3236
+
+   }
+
+   #div2{
+   	background-color: #3cba54;
+   }
+
+   #div3{
+   	background-color: #f4c20d;
+   }
+
+   #div4{
+   	background-color: #4885ed;
+   }
+   
+   #div5{
+   	background-color: #A9A9A9;
+   }
+
+   #div6{
+   	background-color: pink;
+   }
+
+   
+
+    a{
+   	position: fixed;
+   	right: 40px;
+   	color: white;
+    margin-left: 300px;
+   	text-align: center;
+
+   }
+
+    a:link{
+   	text-decoration: none;
+   	background-color: #3422f8;
+   	width:200px;	
+   	font-size: 50px;
+   	opacity: .5;
+   	transition: 0.5s;
+   
+
+   }
+
+    a:hover{
+   	opacity: .8;
+   	width:210px;
+   	height: 70px;
+   }
+
+   #box{
+   	background-color: gray;
+   	padding: 10px;
+   	margin: 100px;
+   	border: 5px solid red;
+   	width: 300px;
+   	box-sizing: border-box;
+   }
+
+   #content{
+   	background-color: green;
+   	color: maroon;
+   	font-family: all;
+   	font-style: all;
+   	font-size: 150%;
+   	font-weight: bold;
+   	opacity: .6;
+   	transition: 0.3s;
+
+   	
+
+   }
+
+   #content:hover{
+   	background-color: pink;
+   	opacity: 1;
+
+   }
+
+   #pDiv{
+   	background-color: blue;
+   }
+
+   p{
+   	width: 50%;
+    padding: 10px;
+   	float: left;
+   }
+
+   #p1{
+   	
+
+   }
+
+   #p2{
+   	
+
+   }
+
+
+</style>
+</head>
 <body>
-<h1>Hello World</h1>
+<h1 style="text-align: center;">Hello World</h1>
+
+    
+<div id="mainDiv">
+	
+    <a href="https://www.google.com" target="_blank">Google</a>
+   
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+    <div id="div5"></div>
+    <div id="div6"></div>
+</div>
+
+<div id="box">
+	<div id="content">Nothing is here just checking the CSS3 updates</div>
+</div>
+
+<div id="pDiv">
+	<p id="p1">A wiki (/ˈwɪki/ (About this soundlisten) WIK-ee) is a hypertext publication collaboratively edited and managed by its own audience directly using a web browser. A typical wiki contains multiple pages for the subjects or scope of the project and may be either open to the public or limited to use within an organization for maintaining its internal knowledge base.</p>
+	<p id="p2">Wikis are enabled by wiki software, otherwise known as wiki engines. A wiki engine, being a form of a content management system, differs from other web-based systems such as blog software, in that the content is created without any defined owner or leader, and wikis have little inherent structure, allowing structure to emerge according to the needs of the users.[1] Wiki engines usually allow content to be written using</p>
+
+</div>
+
 </body>
 </html>
